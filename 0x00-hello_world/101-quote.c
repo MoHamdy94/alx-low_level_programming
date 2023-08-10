@@ -1,8 +1,9 @@
 #include<unistd.h>
 /**
-*main Entry point
-*Return: 1 (error).
-*/
+ * main - Entry point
+ *
+ * Return: Always 1 (NOT Success)
+ */
 int main(void)
 {
 char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
