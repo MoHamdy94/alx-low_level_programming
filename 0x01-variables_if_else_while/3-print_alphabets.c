@@ -16,6 +16,6 @@ ch++;
 while (cH <= 'Z');
 cH++;
 }
-putchar"(\n");
+putchar("\n");
 return (0);
 }
