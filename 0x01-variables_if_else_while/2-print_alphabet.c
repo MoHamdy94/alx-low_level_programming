@@ -13,5 +13,6 @@ while (ch <= 'z')
 putchar("%c", ch);
 ch++;
 }
+putchar('\n');
 return(0);
 }
