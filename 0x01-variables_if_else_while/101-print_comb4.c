@@ -4,6 +4,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+{	
 int digit1 = 0;
 int digit2, digit3;
 while (digit1 <= 9)
