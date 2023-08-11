@@ -14,8 +14,8 @@ putchar(ch);
 ch++;
 }
 while (cH <= 'Z');
-cH++
+cH++;
 }
-putchar(\n);
+putchar"(\n");
 return (0);
 }
