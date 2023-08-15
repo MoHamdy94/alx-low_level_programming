@@ -9,9 +9,9 @@ int min, hr;
 for (hr = 0; hr < 23; hr++)
 for (min = 0; min < 59; min++)
 {
-putchar((hr / 10) + 48);
-putchar((hr % 10) + 48);
-putchar(':');
-putchar((min / 10) + 48);
-putchar((min % 10) + 48);
-putchar('\n');
+_putchar((hr / 10) + 48);
+_putchar((hr % 10) + 48);
+_putchar(':');
+_putchar((min / 10) + 48);
+_putchar((min % 10) + 48);
+_putchar('\n');
