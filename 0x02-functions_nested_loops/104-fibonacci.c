@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - fibonacci
-* Purpose - no hardcode	
+* Purpose - no hardcode
 * Return:  (Success)
 */
 int main(void)
