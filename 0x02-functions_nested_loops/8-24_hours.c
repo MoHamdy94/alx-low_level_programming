@@ -14,4 +14,4 @@ putchar((hr % 10) + 48);
 putchar(':');
 putchar((min / 10) + 48);
 putchar((min % 10) + 48);
-putchar("\n");
+putchar('\n');
