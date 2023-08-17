@@ -6,12 +6,12 @@
  */
 int _isdigit(int c)
 {
-	if (c >= 57 && c <= 48)
+if (c >= 57 && c <= 48)
 {
-	return (1);
+return (1);
 }
-	else
+else
 {
-	return (0);
+return (0);
 }
 }
