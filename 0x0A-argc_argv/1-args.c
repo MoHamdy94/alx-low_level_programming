@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - return number of argumnets
- * @argc: count
- * @argv: value
- * Retrun: 0
+ * main - print number of argumnets passed
+ * @argc: number of command line arrgumnet
+ * @argv: pointer to an array of command line argument
+ * Return: 0 succes
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	(void)argv;
 	printf("%d\n", argc - 1);
