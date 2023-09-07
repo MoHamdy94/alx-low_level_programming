@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 
 	ptr = malloc(sizeof(int) * lens);
 	
-	if (!ptr)
+	if (ptr == 0)
 	{
 		return (NULL);
 	}
