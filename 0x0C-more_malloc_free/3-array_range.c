@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * array_range - create an array of integers
+ * @min: starting int
+ * @max: max int
+ * Return: array of integrs
+ */
+
+int *array_range(int min, int max)
+{
+	int lens, i;
+	int *ptr;
+
+	if (min > max)
+		return (NULL);
+	lens = min - max + 1;
+	ptr = malloc(sizeof(int) * lens);
+	if (ptr == 0)
+		return (NULL);
+	for (i = 0 ; i < lens ; i++)
+		ptr[i] = min++;
+	return (ptr);
+}
