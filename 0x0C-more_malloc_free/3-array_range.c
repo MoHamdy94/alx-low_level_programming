@@ -18,7 +18,7 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	lens = min - max + 1;
+	lens = max - min + 1;
 
 	ptr = malloc(sizeof(int) * lens);
 	
