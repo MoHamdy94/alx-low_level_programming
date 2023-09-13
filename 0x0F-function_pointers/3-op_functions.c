@@ -15,7 +15,7 @@ int op_add(int a, int b)
 /**
  * op_sub - subtract two int
  * @a: first
- * @sec: second
+ * @b: second
  *
  * Return: the differance
  */
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 /**
  * op_mul - multiplication of int
  * @a: the first
- * @b: the second 
+ * @b: the second
  *
  * Return: the product
  */
