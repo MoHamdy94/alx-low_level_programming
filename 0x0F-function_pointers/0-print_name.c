@@ -2,8 +2,8 @@
 
 /**
  * print_name - prints a name
- * #name: the string name
- *
+ * @name: the string name
+ * @f: function that prints charater
  * Return: void
  */
 
