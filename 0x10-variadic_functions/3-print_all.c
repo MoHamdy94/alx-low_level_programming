@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_all = prints anything
+ * print_all - prints anything
  * @format: list of typwa of arguments passed to the function
  */
 
